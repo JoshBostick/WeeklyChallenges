@@ -19,7 +19,7 @@ namespace ChallengesWithTestsMark8.Tests
             ChallengesSet04 challenger = new ChallengesSet04();
 
             // Act
-            int actual = challenger.AddEvenSubtractOdd(numbers);
+            int actual = ChallengesSet04.AddEvenSubtractOdd(numbers);
 
             // Assert
             Assert.Equal(expected, actual);
